@@ -16,7 +16,7 @@ function Link({
 
   return (
     <AnchorLink
-        className={`${selectedPage === lowerCasePage ? "text-primary-500" : ""}
+        className={`${selectedPage === lowerCasePage ? "text-gray-500" : ""}
             transition duration-500 hover:text-red-500
         `}
         href={`#${lowerCasePage}`}
