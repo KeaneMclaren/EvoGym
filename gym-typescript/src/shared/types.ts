@@ -1,4 +1,4 @@
-import type { ReactElement, ReactNode } from "react";
+import type { ReactElement } from "react";
 
 export enum SelectedPage {
   Home = "home",
@@ -11,4 +11,10 @@ export interface BenefitType {
   icon: ReactElement;
   title: string;
   description: string;
+}
+
+export interface ClassType {
+  name: string;
+  description?: string;
+  image: string;
 }
